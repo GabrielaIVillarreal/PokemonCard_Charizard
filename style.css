@@ -5,21 +5,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.tarjeta {
     
-    margin-top: 100px;
-    margin-left: 500px;
-    width: 300px;
-    height: 480px;
-    background-color:orange;
-    font-family: "Rowdies", sans-serif;
-    border: 3px solid orangered;
-    border-radius: 10px;
+.tarjeta { /*contenedor principal (padre)*/
+    
+    margin-top: 100px;   /*acomodo la imagen en el medio de la pantalla*/
+    margin-left: 500px;  /*acomodo la imagen en el medio de la pantalla*/
+    width: 300px;         /*elijo la altura y el ancho de la tarjeta*/
+    height: 480px;         /*elijo la altura y el ancho de la tarjeta*/
+    background-color:orange;    /*color que elijo para la tarjeta*/
+    font-family: "Rowdies", sans-serif; /*fuente*/
+    border: 3px solid orangered; /*el borde de la tarjeta*/
+    border-radius: 10px;    /*las esquinas de la tarjeta redondeadas*/
     
 }
 
-.nombre {
+.nombre { /*aplico diseño a la caja que dice "Charizard", que esta en la parte de arriba de mi tarjeta*/
 
     margin-left: 50px;
     width: 200px;
@@ -31,14 +31,14 @@
     bottom: 20px;
 }
 
-.texto {
+.texto { /* al final de la tarjeta esta el texto con la descripcion del personaje. Le aplico diseño*/
 
     font-size: 10px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-h2 {
+h2 { /*este H2 es el titulo: Pokemon llama. Lo centro*/
 
     text-align: center;
 }
